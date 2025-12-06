@@ -220,8 +220,20 @@ print(common)
 
 
 
-'''''
-18. Write a Python program to convert a list of elements into a single string.
-19. Write a program to reverse a list without using reverse().
-20. Write a program to find the missing number in a list from 1 to N.
-'''''
+
+#18. Write a Python program to convert a list of elements into a single string.
+#19. Write a program to reverse a list without using reverse().
+r1="Ganesh"
+r2=""
+for i in r1:
+    r2=i+r2
+print(r2)
+#20. Write a program to find the missing number in a list from 1 to N.
+
+l1 = [1, 2, 4, 5]
+N = 5
+
+for i in range(1, N+1):
+    if i not in l1:
+        print("Missing number:", i)
+        break
